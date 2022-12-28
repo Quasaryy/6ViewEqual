@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -14,42 +14,62 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_ViewEqual" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JjD-QA-fAV">
-                                <rect key="frame" x="200" y="298" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JjD-QA-fAV">
+                                <rect key="frame" x="209" y="318.33333333333331" width="168" height="238.99999999999994"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64T-t6-IBf">
-                                <rect key="frame" x="200" y="550" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64T-t6-IBf">
+                                <rect key="frame" x="209" y="578" width="168" height="239.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jok-1a-6j5">
-                                <rect key="frame" x="16" y="550" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DsP-EN-rbQ">
-                                <rect key="frame" x="200" y="47" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DsP-EN-rbQ">
+                                <rect key="frame" x="209" y="59.000000000000014" width="168" height="239.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1x-kL-5bt">
-                                <rect key="frame" x="16" y="47" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K1x-kL-5bt">
+                                <rect key="frame" x="16" y="59.000000000000014" width="168" height="239.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1bK-Dq-82g">
-                                <rect key="frame" x="16" y="298" width="159" height="228"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bK-Dq-82g">
+                                <rect key="frame" x="16" y="318.33333333333331" width="168" height="238.99999999999994"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jok-1a-6j5">
+                                <rect key="frame" x="16" y="578" width="168" height="239.33333333333337"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K1x-kL-5bt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3fY-AQ-1wd"/>
+                            <constraint firstItem="DsP-EN-rbQ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280908" id="3lu-xp-czO"/>
+                            <constraint firstItem="1bK-Dq-82g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7dG-AT-Bbl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JjD-QA-fAV" secondAttribute="trailing" constant="16" id="Bfg-ce-nN6"/>
+                            <constraint firstItem="DsP-EN-rbQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1.4210854715202004e-14" id="CsI-Ff-8kA"/>
+                            <constraint firstItem="K1x-kL-5bt" firstAttribute="width" secondItem="DsP-EN-rbQ" secondAttribute="width" id="HG1-OC-xqQ"/>
+                            <constraint firstItem="64T-t6-IBf" firstAttribute="top" secondItem="JjD-QA-fAV" secondAttribute="bottom" constant="20.666666666666742" id="Nps-l3-IXo"/>
+                            <constraint firstItem="JjD-QA-fAV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280516" id="O8n-YJ-ZhA"/>
+                            <constraint firstItem="JjD-QA-fAV" firstAttribute="leading" secondItem="1bK-Dq-82g" secondAttribute="trailing" constant="25" id="UIs-ek-E18"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="64T-t6-IBf" secondAttribute="trailing" constant="16" id="Vcz-Xv-kfn"/>
+                            <constraint firstItem="Jok-1a-6j5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280908" id="Vq4-xJ-CCU"/>
+                            <constraint firstItem="Jok-1a-6j5" firstAttribute="top" secondItem="1bK-Dq-82g" secondAttribute="bottom" constant="20.666666666666742" id="XOb-zD-tNT"/>
+                            <constraint firstItem="64T-t6-IBf" firstAttribute="leading" secondItem="Jok-1a-6j5" secondAttribute="trailing" constant="25" id="Ycj-lT-zrD"/>
+                            <constraint firstItem="1bK-Dq-82g" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280516" id="dOx-fS-Um4"/>
+                            <constraint firstItem="K1x-kL-5bt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="1.4210854715202004e-14" id="h7N-sZ-MLP"/>
+                            <constraint firstItem="Jok-1a-6j5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="iZ6-in-Mlf"/>
+                            <constraint firstItem="JjD-QA-fAV" firstAttribute="top" secondItem="DsP-EN-rbQ" secondAttribute="bottom" constant="19.999999999999943" id="lKk-eA-ghg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DsP-EN-rbQ" secondAttribute="trailing" constant="16" id="mGy-WK-sko"/>
+                            <constraint firstItem="Jok-1a-6j5" firstAttribute="width" secondItem="64T-t6-IBf" secondAttribute="width" id="nvD-GM-CM6"/>
+                            <constraint firstItem="1bK-Dq-82g" firstAttribute="top" secondItem="K1x-kL-5bt" secondAttribute="bottom" constant="19.999999999999943" id="pv3-Xo-hod"/>
+                            <constraint firstItem="64T-t6-IBf" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280908" id="qZ8-ua-QLw"/>
+                            <constraint firstItem="DsP-EN-rbQ" firstAttribute="leading" secondItem="K1x-kL-5bt" secondAttribute="trailing" constant="25" id="szF-Hw-OBU"/>
+                            <constraint firstItem="1bK-Dq-82g" firstAttribute="width" secondItem="JjD-QA-fAV" secondAttribute="width" id="u9B-rn-XxC"/>
+                            <constraint firstItem="K1x-kL-5bt" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.280908" id="y2Z-Oj-U7q"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
